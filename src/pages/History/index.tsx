@@ -4,6 +4,7 @@ import {
   HistoryTable,
   HistoryTD,
   HistoryTH,
+  Status,
 } from './styles'
 
 export function History() {
@@ -27,31 +28,25 @@ export function History() {
               <HistoryTD>Tarefa</HistoryTD>
               <HistoryTD>20 minutos</HistoryTD>
               <HistoryTD>Há 2 meses</HistoryTD>
-              <HistoryTD>Concluído</HistoryTD>
+              <HistoryTD>
+                <Status statusColor="yellow">Em andamento</Status>
+              </HistoryTD>
             </tr>
             <tr>
               <HistoryTD>Tarefa</HistoryTD>
               <HistoryTD>20 minutos</HistoryTD>
               <HistoryTD>Há 2 meses</HistoryTD>
-              <HistoryTD>Concluído</HistoryTD>
+              <HistoryTD>
+                <Status statusColor="green">Concluído</Status>
+              </HistoryTD>
             </tr>
             <tr>
               <HistoryTD>Tarefa</HistoryTD>
               <HistoryTD>20 minutos</HistoryTD>
               <HistoryTD>Há 2 meses</HistoryTD>
-              <HistoryTD>Concluído</HistoryTD>
-            </tr>
-            <tr>
-              <HistoryTD>Tarefa</HistoryTD>
-              <HistoryTD>20 minutos</HistoryTD>
-              <HistoryTD>Há 2 meses</HistoryTD>
-              <HistoryTD>Concluído</HistoryTD>
-            </tr>
-            <tr>
-              <HistoryTD>Tarefa</HistoryTD>
-              <HistoryTD>20 minutos</HistoryTD>
-              <HistoryTD>Há 2 meses</HistoryTD>
-              <HistoryTD>Concluído</HistoryTD>
+              <HistoryTD>
+                <Status statusColor="red">Interrompido</Status>
+              </HistoryTD>
             </tr>
           </tbody>
         </HistoryTable>
