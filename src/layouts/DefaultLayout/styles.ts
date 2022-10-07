@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 export const LayoutContainer = styled.div`
   max-width: 74rem;
@@ -9,4 +9,22 @@ export const LayoutContainer = styled.div`
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+`
+
+const Neon = keyframes`
+ from{
+  transition: 0%,39%,41%,59%,61%,100%;
+  text-shadow: #fff 0 0 12px,
+  #00B37E 0 0 24px,
+  #00875F 0 0 36px;
+} to{
+  transition: 40%,60%;
+  text-emphasis: none;
+}
+`
+
+export const TitleNeon = styled.h1`
+  text-align: center;
+  color: ${({ theme }) => theme['gray-100']};
+  animation: ${Neon} 5s infinite ease-in;
 `
