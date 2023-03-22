@@ -31,7 +31,9 @@ import Timer from 'timer';
  - `@hookform/resolvers`: Used to resolve form data.  
  - `date-fns`: Used to manipulate date and time values.  
  - `phosphor-react`: Used to create interactive components.  
- - `react`, `react-dom`, and `react-router-dom`: Used for building user interfaces.  									    - `styled-components`: Used for styling components.  				    - `zod`: Used for type checking and validation of data structures.  
+ - `react`, `react-dom`, and `react-router-dom`: Used for building user interfaces.  									   
+ - `styled-components`: Used for styling components.  				   
+ - `zod`: Used for type checking and validation of data structures.  
 
  ## Dev Dependencies
 
