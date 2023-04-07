@@ -42,7 +42,9 @@ export function History() {
                 <tr key={cycle.id}>
                   <HistoryTD>{cycle.task}</HistoryTD>
                   <HistoryTD>{cycle.minutesAmount} minutos</HistoryTD>
-                  <HistoryTD>{formattedToDate(cycle.startDate)}</HistoryTD>
+                  <HistoryTD>
+                    {formattedToDate(new Date(cycle.startDate))}
+                  </HistoryTD>
                   <HistoryTD>
                     {cycle.finishedDate && (
                       <Status statusColor="green">Concluído</Status>
