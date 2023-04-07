@@ -3,8 +3,8 @@
 
   &#xa0;
 </div>
-## Timer 
 
+## Timer 
 Este projeto um React. Ele utiliza várias dependências populares, como react-hook-form, react-router-dom, styled-components, entre outras.
 
 ## Instalação
