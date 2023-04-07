@@ -2,7 +2,8 @@
   <img src="./public/timer.png" alt="timer" />
 
   &#xa0;
-</div># Timer 
+</div>
+## Timer 
 
 Este projeto um React. Ele utiliza várias dependências populares, como react-hook-form, react-router-dom, styled-components, entre outras.
 
